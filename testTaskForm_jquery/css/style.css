@@ -1,0 +1,58 @@
+body{
+	color: #333333;
+	background: #E5E5E5;
+	padding-top: 2rem; 
+}
+.registration h1{
+	color: #07679B;
+	font-size: 1.2rem;
+	margin-bottom: 1.5rem;
+}
+.registration .registerPart{
+	background: #fff;
+	padding: 1.5rem; 
+}
+.registration h2{
+	color:#666666;
+	font-size: .85rem;
+}
+.registration #step1 label{
+	font-weight: bold;
+	font-size: .75rem;
+	margin-bottom: .2rem;
+}
+.registration #step1 .comment{
+	font-weight: bold;
+}
+.registration .register-check-label{
+	border: 1px solid #07679B;
+    width: 100%;
+    text-align: center;
+    color: #07679B;
+    cursor: pointer;
+    padding: .3rem 0; 
+}
+.registration .register-check-input{
+	display: none;
+}
+.registration .register-check-input:checked + label{
+	background: #07679B;
+	color: #fff;
+}
+.registration .form-control{
+	border: 1px solid #C1C1C1;
+	border-radius: 0;
+	padding: .25rem .65rem;
+	height: auto;
+    font-size: .85rem;
+}
+.registration .form-group{
+	margin-bottom: .7rem;
+}
+.registration .btn{
+	display: block;
+	border-radius: 0;
+	font-weight: bold;
+	width: 200px;
+    height: 40px;
+}
